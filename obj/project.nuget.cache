@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "azOukZoWkHNnVhfyXoMmv4smAsQwmyf48xYDE1XI2g27mVVmPmhEvll5JAPZ+UJWIouZzIriW4fSgANWn32NtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brkoc\\Desktop\\otlp\\OtlpExporter\\OtlpExporter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brkoc\\.nuget\\packages\\google.protobuf\\3.15.5\\google.protobuf.3.15.5.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\grpc.core.api\\2.32.0\\grpc.core.api.2.32.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\grpc.net.client\\2.32.0\\grpc.net.client.2.32.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\grpc.net.common\\2.32.0\\grpc.net.common.2.32.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.logging.configuration\\2.1.0\\microsoft.extensions.logging.configuration.2.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.1.0\\microsoft.extensions.options.configurationextensions.2.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\opentelemetry\\1.1.0\\opentelemetry.1.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\opentelemetry.api\\1.1.0\\opentelemetry.api.1.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\opentelemetry.exporter.console\\1.1.0\\opentelemetry.exporter.console.1.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.1.0\\opentelemetry.exporter.opentelemetryprotocol.1.1.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\system.collections.immutable\\1.4.0\\system.collections.immutable.1.4.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\brkoc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: OpenTelemetry 1.1.0 requires Microsoft.Extensions.Logging (>= 2.1.0 && < 6.0.0) but version Microsoft.Extensions.Logging 6.0.0 was resolved.",
+      "libraryId": "Microsoft.Extensions.Logging",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
